@@ -6,6 +6,7 @@
   "scripts": {
     "eslint:fix": "eslint --fix ."
   },
+  "homepage": "https://github.com/chenyzable/lint-config-lib#readme",
   "keywords": [
     "eslint",
     "stylelint",
