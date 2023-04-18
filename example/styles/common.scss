@@ -1,0 +1,29 @@
+body {
+  display: block;
+  width: 100px;
+  height: 50vw;
+  background-color: #eee;
+}
+
+$a: 1;
+
+--color: red;
+@mixin name($w, $h: red) {
+  width: $w;
+  height: $h;
+}
+
+div {
+  background-color: var(--color);
+  @include name(100px, 200px);
+}
+
+@for &i from 1 through 24 {
+  div {
+    color: $a;
+  }
+}
+
+h1 {
+  @include name(1);
+}

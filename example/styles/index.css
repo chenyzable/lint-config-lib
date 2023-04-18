@@ -1,0 +1,19 @@
+body {
+  width: 100px;
+}
+
+div {
+  position: relative;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  box-sizing: border-box;
+  transition: 1s;
+}
+
+.box {
+  display: inline;
+  width: 100px;
+  height: 100px;
+}

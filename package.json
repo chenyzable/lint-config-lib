@@ -1,0 +1,53 @@
+{
+  "name": "@cyzeal/lint-config-lib",
+  "version": "0.0.2",
+  "description": "快速在项目中配置 eslint、prettier、styleint 等",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "stylelint",
+    "prettier"
+  ],
+  "author": "chenyzable <chenyz811@foxmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-react": "^7.18.6",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "postcss": "^8.4.19",
+    "postcss-less": "^6.0.0",
+    "postcss-scss": "^4.0.6",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.15.0",
+    "stylelint-config-prettier": "^9.0.4",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.6.0",
+    "stylelint-less": "^1.0.6",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.3.0",
+    "typescript": "^4.9.3"
+  },
+  "files": [
+    "lib",
+    "eslint.js",
+    "eslint-ts.js",
+    "eslint-react.js",
+    "eslint-react-ts.js",
+    "stylelint.js",
+    "prettier.js",
+    "babel.config.js",
+    "package.json",
+    "index.js"
+  ]
+}
