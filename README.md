@@ -48,6 +48,6 @@ module.exports = require("@cyzeal/lint-config-lib/prettier")
 
 ```js
 module.exports = {
-  extends: [require.resolve("@cyzeal/lint-config-lib/stylelint-config")],
+  extends: [require.resolve("@cyzeal/lint-config-lib/stylelint")],
 }
 ```
