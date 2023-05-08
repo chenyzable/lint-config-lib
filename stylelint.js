@@ -92,6 +92,12 @@ module.exports = {
     "scss/at-rule-no-unknown": null,
     "import-notation": null,
     "selector-class-pattern": null,
+    "selector-pseudo-class-no-unknown": [
+      true,
+      {
+        ignorePseudoClasses: ["global", "local"],
+      },
+    ],
   },
   overrides: [
     {
