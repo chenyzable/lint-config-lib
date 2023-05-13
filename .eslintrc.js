@@ -1,3 +1,3 @@
 module.exports = {
-  extends: [require.resolve("./eslint-react")],
+  extends: [require.resolve("./eslint-react-ts")],
 }
