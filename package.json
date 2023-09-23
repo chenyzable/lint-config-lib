@@ -4,7 +4,8 @@
   "description": "快速在项目中配置 eslint、prettier、styleint 等",
   "main": "index.js",
   "scripts": {
-    "eslint:fix": "eslint --fix ."
+    "eslint:fix": "eslint --fix .",
+    "release": "release-it"
   },
   "homepage": "https://github.com/chenyzable/lint-config-lib#readme",
   "keywords": [
@@ -47,5 +48,8 @@
     "babel.config.js",
     "package.json",
     "index.js"
-  ]
+  ],
+  "devDependencies": {
+    "release-it": "^16.2.0"
+  }
 }
