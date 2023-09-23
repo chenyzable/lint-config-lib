@@ -15,9 +15,6 @@
   "author": "chenyzable <chenyz811@foxmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.20.2",
-    "@babel/eslint-parser": "^7.19.1",
-    "@babel/preset-react": "^7.18.6",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@typescript-eslint/parser": "^5.43.0",
     "eslint": "^8.28.0",
@@ -34,10 +31,10 @@
     "stylelint-config-prettier": "^9.0.4",
     "stylelint-config-standard": "^29.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.6.0",
-    "stylelint-less": "^1.0.6",
+    "stylelint-less": "1.0.6",
     "stylelint-order": "^5.0.0",
     "stylelint-scss": "^4.3.0",
-    "typescript": "^4.9.3"
+    "typescript": "*"
   },
   "files": [
     "lib",
